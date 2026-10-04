@@ -1,0 +1,911 @@
+{
+  "status": "live",
+  "event": {
+    "name": "Riverside Rapid 2026",
+    "tagline": "A one-day rapid chess tournament for every level of player.",
+    "date": "2026-11-14",
+    "start": "2026-11-14T09:30:00",
+    "format": "5-round Swiss",
+    "timeControl": "15 min + 10 sec increment",
+    "rounds": 5,
+    "rated": "Rated for the national rapid list",
+    "entryFee": {
+      "adult": 20,
+      "junior": 10,
+      "currency": "GBP"
+    },
+    "registrationDeadline": "2026-11-10",
+    "venue": {
+      "name": "Riverside Community Hall",
+      "address": "12 Mill Lane, Riverside",
+      "mapUrl": "https://www.openstreetmap.org/search?query=Riverside%20Community%20Hall"
+    },
+    "contactEmail": "hello@riversiderapid.example"
+  },
+  "prizes": [
+    {
+      "section": "Open",
+      "awards": [
+        "1st — £300",
+        "2nd — £150",
+        "3rd — £75",
+        "Best U2000 — £50"
+      ]
+    },
+    {
+      "section": "U1600",
+      "awards": [
+        "1st — £150",
+        "2nd — £75",
+        "3rd — £40",
+        "Best unrated — book voucher"
+      ]
+    },
+    {
+      "section": "Juniors (U14)",
+      "awards": [
+        "1st — trophy + £50",
+        "2nd — trophy",
+        "3rd — trophy",
+        "Medals for everyone"
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time": "08:30",
+      "label": "Check-in opens",
+      "detail": "Confirm your entry at the front desk."
+    },
+    {
+      "time": "09:15",
+      "label": "Check-in closes",
+      "detail": "Late arrivals receive a zero-point bye in round 1."
+    },
+    {
+      "time": "09:30",
+      "label": "Round 1",
+      "round": 1
+    },
+    {
+      "time": "10:45",
+      "label": "Round 2",
+      "round": 2
+    },
+    {
+      "time": "12:00",
+      "label": "Round 3",
+      "round": 3
+    },
+    {
+      "time": "13:00",
+      "label": "Lunch break",
+      "detail": "Hot food available at the hall café."
+    },
+    {
+      "time": "13:45",
+      "label": "Round 4",
+      "round": 4
+    },
+    {
+      "time": "15:00",
+      "label": "Round 5",
+      "round": 5
+    },
+    {
+      "time": "16:30",
+      "label": "Prize-giving",
+      "detail": "Main hall. Prizes must be collected in person."
+    }
+  ],
+  "sections": [
+    {
+      "id": "open",
+      "name": "Open",
+      "description": "Open to all players, any rating.",
+      "players": [
+        {
+          "id": "open-1",
+          "name": "Amara Okafor",
+          "title": "FM",
+          "rating": 2215,
+          "club": "St Anne's School"
+        },
+        {
+          "id": "open-2",
+          "name": "Tomasz Wiśniewski",
+          "title": "CM",
+          "rating": 2140,
+          "club": "St Anne's School"
+        },
+        {
+          "id": "open-3",
+          "name": "Priya Raman",
+          "rating": 2068,
+          "club": "Greenfield CC"
+        },
+        {
+          "id": "open-4",
+          "name": "Daniel Mensah",
+          "rating": 2011,
+          "club": "St Anne's School"
+        },
+        {
+          "id": "open-5",
+          "name": "Elena Vasquez",
+          "title": "WCM",
+          "rating": 1987,
+          "club": "St Anne's School"
+        },
+        {
+          "id": "open-6",
+          "name": "Hiroshi Tanaka",
+          "rating": 1942,
+          "club": "Greenfield CC"
+        },
+        {
+          "id": "open-7",
+          "name": "Grace O'Neill",
+          "rating": 1905,
+          "club": "Harbour Pawns"
+        },
+        {
+          "id": "open-8",
+          "name": "Marcus Bell",
+          "rating": 1876,
+          "club": "Riverside CC"
+        },
+        {
+          "id": "open-9",
+          "name": "Lukas Brandt",
+          "rating": 1850,
+          "club": "Riverside CC"
+        },
+        {
+          "id": "open-10",
+          "name": "Fatima Al-Sayed",
+          "rating": 1822,
+          "club": "Unattached"
+        },
+        {
+          "id": "open-11",
+          "name": "Oliver Grant",
+          "rating": 1790,
+          "club": "Unattached"
+        },
+        {
+          "id": "open-12",
+          "name": "Sofia Petrova",
+          "rating": 1765,
+          "club": "St Anne's School"
+        },
+        {
+          "id": "open-13",
+          "name": "Kwame Asante",
+          "rating": 1731,
+          "club": "Greenfield CC"
+        },
+        {
+          "id": "open-14",
+          "name": "Ruth Delaney",
+          "rating": 1702,
+          "club": "Unattached"
+        }
+      ],
+      "rounds": [
+        {
+          "round": 1,
+          "pairings": [
+            {
+              "board": 1,
+              "white": "open-1",
+              "black": "open-2",
+              "result": "1-0"
+            },
+            {
+              "board": 2,
+              "white": "open-3",
+              "black": "open-4",
+              "result": "1-0"
+            },
+            {
+              "board": 3,
+              "white": "open-5",
+              "black": "open-6",
+              "result": "½-½"
+            },
+            {
+              "board": 4,
+              "white": "open-7",
+              "black": "open-8",
+              "result": "0-1"
+            },
+            {
+              "board": 5,
+              "white": "open-9",
+              "black": "open-10",
+              "result": "0-1"
+            },
+            {
+              "board": 6,
+              "white": "open-11",
+              "black": "open-12",
+              "result": "1-0"
+            },
+            {
+              "board": 7,
+              "white": "open-13",
+              "black": "open-14",
+              "result": "0-1"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "pairings": [
+            {
+              "board": 1,
+              "white": "open-1",
+              "black": "open-3",
+              "result": "1-0"
+            },
+            {
+              "board": 2,
+              "white": "open-8",
+              "black": "open-10",
+              "result": "1-0"
+            },
+            {
+              "board": 3,
+              "white": "open-14",
+              "black": "open-11",
+              "result": "1-0"
+            },
+            {
+              "board": 4,
+              "white": "open-2",
+              "black": "open-5",
+              "result": "1-0"
+            },
+            {
+              "board": 5,
+              "white": "open-6",
+              "black": "open-4",
+              "result": "1-0"
+            },
+            {
+              "board": 6,
+              "white": "open-7",
+              "black": "open-9",
+              "result": "0-1"
+            },
+            {
+              "board": 7,
+              "white": "open-12",
+              "black": "open-13",
+              "result": "0-1"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "pairings": [
+            {
+              "board": 1,
+              "white": "open-8",
+              "black": "open-1",
+              "result": "0-1"
+            },
+            {
+              "board": 2,
+              "white": "open-14",
+              "black": "open-6",
+              "result": "½-½"
+            },
+            {
+              "board": 3,
+              "white": "open-2",
+              "black": "open-3",
+              "result": "1-0"
+            },
+            {
+              "board": 4,
+              "white": "open-9",
+              "black": "open-11",
+              "result": "½-½"
+            },
+            {
+              "board": 5,
+              "white": "open-10",
+              "black": "open-13",
+              "result": "1-0"
+            },
+            {
+              "board": 6,
+              "white": "open-4",
+              "black": "open-5",
+              "result": "0-1"
+            },
+            {
+              "board": 7,
+              "white": "open-12",
+              "black": "open-7",
+              "result": "1-0"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "pairings": [
+            {
+              "board": 1,
+              "white": "open-1",
+              "black": "open-14",
+              "result": null
+            },
+            {
+              "board": 2,
+              "white": "open-6",
+              "black": "open-2",
+              "result": null
+            },
+            {
+              "board": 3,
+              "white": "open-5",
+              "black": "open-8",
+              "result": null
+            },
+            {
+              "board": 4,
+              "white": "open-10",
+              "black": "open-11",
+              "result": null
+            },
+            {
+              "board": 5,
+              "white": "open-3",
+              "black": "open-9",
+              "result": null
+            },
+            {
+              "board": 6,
+              "white": "open-4",
+              "black": "open-12",
+              "result": null
+            },
+            {
+              "board": 7,
+              "white": "open-13",
+              "black": "open-7",
+              "result": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u1600",
+      "name": "U1600",
+      "description": "For players rated under 1600, or unrated.",
+      "players": [
+        {
+          "id": "u1600-1",
+          "name": "Samuel Adeyemi",
+          "rating": 1588,
+          "club": "Northgate Knights"
+        },
+        {
+          "id": "u1600-2",
+          "name": "Chloe Martin",
+          "rating": 1561,
+          "club": "Harbour Pawns"
+        },
+        {
+          "id": "u1600-3",
+          "name": "Arjun Mehta",
+          "rating": 1540,
+          "club": "Old Mill Chess"
+        },
+        {
+          "id": "u1600-4",
+          "name": "Isabel Costa",
+          "rating": 1512,
+          "club": "Unattached"
+        },
+        {
+          "id": "u1600-5",
+          "name": "Ben Whitaker",
+          "rating": 1490,
+          "club": "Greenfield CC"
+        },
+        {
+          "id": "u1600-6",
+          "name": "Nadia Haddad",
+          "rating": 1455,
+          "club": "Unattached"
+        },
+        {
+          "id": "u1600-7",
+          "name": "Peter Novak",
+          "rating": 1421,
+          "club": "Old Mill Chess"
+        },
+        {
+          "id": "u1600-8",
+          "name": "Yuki Sato",
+          "rating": 1398,
+          "club": "Greenfield CC"
+        },
+        {
+          "id": "u1600-9",
+          "name": "Joan Murphy",
+          "rating": 1350,
+          "club": "Harbour Pawns"
+        },
+        {
+          "id": "u1600-10",
+          "name": "Ade Balogun",
+          "rating": 1302,
+          "club": "Riverside CC"
+        },
+        {
+          "id": "u1600-11",
+          "name": "Leah Fischer",
+          "rating": 1255,
+          "club": "Unattached"
+        },
+        {
+          "id": "u1600-12",
+          "name": "Carlos Ruiz",
+          "rating": null,
+          "club": "Northgate Knights"
+        }
+      ],
+      "rounds": [
+        {
+          "round": 1,
+          "pairings": [
+            {
+              "board": 1,
+              "white": "u1600-1",
+              "black": "u1600-2",
+              "result": "0-1"
+            },
+            {
+              "board": 2,
+              "white": "u1600-3",
+              "black": "u1600-4",
+              "result": "1-0"
+            },
+            {
+              "board": 3,
+              "white": "u1600-5",
+              "black": "u1600-6",
+              "result": "1-0"
+            },
+            {
+              "board": 4,
+              "white": "u1600-7",
+              "black": "u1600-8",
+              "result": "0-1"
+            },
+            {
+              "board": 5,
+              "white": "u1600-9",
+              "black": "u1600-10",
+              "result": "0-1"
+            },
+            {
+              "board": 6,
+              "white": "u1600-11",
+              "black": "u1600-12",
+              "result": "0-1"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "pairings": [
+            {
+              "board": 1,
+              "white": "u1600-2",
+              "black": "u1600-3",
+              "result": "1-0"
+            },
+            {
+              "board": 2,
+              "white": "u1600-8",
+              "black": "u1600-5",
+              "result": "½-½"
+            },
+            {
+              "board": 3,
+              "white": "u1600-10",
+              "black": "u1600-12",
+              "result": "0-1"
+            },
+            {
+              "board": 4,
+              "white": "u1600-4",
+              "black": "u1600-1",
+              "result": "0-1"
+            },
+            {
+              "board": 5,
+              "white": "u1600-6",
+              "black": "u1600-7",
+              "result": "½-½"
+            },
+            {
+              "board": 6,
+              "white": "u1600-9",
+              "black": "u1600-11",
+              "result": "0-1"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "pairings": [
+            {
+              "board": 1,
+              "white": "u1600-12",
+              "black": "u1600-2",
+              "result": "0-1"
+            },
+            {
+              "board": 2,
+              "white": "u1600-5",
+              "black": "u1600-1",
+              "result": "0-1"
+            },
+            {
+              "board": 3,
+              "white": "u1600-8",
+              "black": "u1600-3",
+              "result": "0-1"
+            },
+            {
+              "board": 4,
+              "white": "u1600-10",
+              "black": "u1600-11",
+              "result": "0-1"
+            },
+            {
+              "board": 5,
+              "white": "u1600-6",
+              "black": "u1600-4",
+              "result": "½-½"
+            },
+            {
+              "board": 6,
+              "white": "u1600-7",
+              "black": "u1600-9",
+              "result": "0-1"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "pairings": [
+            {
+              "board": 1,
+              "white": "u1600-2",
+              "black": "u1600-11",
+              "result": null
+            },
+            {
+              "board": 2,
+              "white": "u1600-1",
+              "black": "u1600-3",
+              "result": null
+            },
+            {
+              "board": 3,
+              "white": "u1600-12",
+              "black": "u1600-5",
+              "result": null
+            },
+            {
+              "board": 4,
+              "white": "u1600-8",
+              "black": "u1600-6",
+              "result": null
+            },
+            {
+              "board": 5,
+              "white": "u1600-4",
+              "black": "u1600-9",
+              "result": null
+            },
+            {
+              "board": 6,
+              "white": "u1600-10",
+              "black": "u1600-7",
+              "result": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "juniors",
+      "name": "Juniors (U14)",
+      "description": "For players under 14 on the day of the event.",
+      "players": [
+        {
+          "id": "juniors-1",
+          "name": "Mia Chen",
+          "rating": 1610,
+          "club": "St Anne's School"
+        },
+        {
+          "id": "juniors-2",
+          "name": "Tobi Afolabi",
+          "rating": 1534,
+          "club": "St Anne's School"
+        },
+        {
+          "id": "juniors-3",
+          "name": "Ella Kowalski",
+          "rating": 1470,
+          "club": "Harbour Pawns"
+        },
+        {
+          "id": "juniors-4",
+          "name": "Noah Patel",
+          "rating": 1402,
+          "club": "St Anne's School"
+        },
+        {
+          "id": "juniors-5",
+          "name": "Zara Hussain",
+          "rating": 1366,
+          "club": "Unattached"
+        },
+        {
+          "id": "juniors-6",
+          "name": "Leo Dubois",
+          "rating": 1290,
+          "club": "Riverside CC"
+        },
+        {
+          "id": "juniors-7",
+          "name": "Ava Thompson",
+          "rating": 1215,
+          "club": "St Anne's School"
+        },
+        {
+          "id": "juniors-8",
+          "name": "Ibrahim Diallo",
+          "rating": 1180,
+          "club": "Unattached"
+        },
+        {
+          "id": "juniors-9",
+          "name": "Lily Nguyen",
+          "rating": 1102,
+          "club": "Northgate Knights"
+        },
+        {
+          "id": "juniors-10",
+          "name": "Finn O'Brien",
+          "rating": 1040,
+          "club": "St Anne's School"
+        },
+        {
+          "id": "juniors-11",
+          "name": "Maya Johansson",
+          "rating": null,
+          "club": "Harbour Pawns"
+        },
+        {
+          "id": "juniors-12",
+          "name": "Jamie Clarke",
+          "rating": null,
+          "club": "Riverside CC"
+        }
+      ],
+      "rounds": [
+        {
+          "round": 1,
+          "pairings": [
+            {
+              "board": 1,
+              "white": "juniors-1",
+              "black": "juniors-2",
+              "result": "1-0"
+            },
+            {
+              "board": 2,
+              "white": "juniors-3",
+              "black": "juniors-4",
+              "result": "1-0"
+            },
+            {
+              "board": 3,
+              "white": "juniors-5",
+              "black": "juniors-6",
+              "result": "1-0"
+            },
+            {
+              "board": 4,
+              "white": "juniors-7",
+              "black": "juniors-8",
+              "result": "1-0"
+            },
+            {
+              "board": 5,
+              "white": "juniors-9",
+              "black": "juniors-10",
+              "result": "½-½"
+            },
+            {
+              "board": 6,
+              "white": "juniors-11",
+              "black": "juniors-12",
+              "result": "0-1"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "pairings": [
+            {
+              "board": 1,
+              "white": "juniors-1",
+              "black": "juniors-3",
+              "result": "1-0"
+            },
+            {
+              "board": 2,
+              "white": "juniors-5",
+              "black": "juniors-7",
+              "result": "1-0"
+            },
+            {
+              "board": 3,
+              "white": "juniors-12",
+              "black": "juniors-9",
+              "result": "0-1"
+            },
+            {
+              "board": 4,
+              "white": "juniors-10",
+              "black": "juniors-2",
+              "result": "0-1"
+            },
+            {
+              "board": 5,
+              "white": "juniors-4",
+              "black": "juniors-6",
+              "result": "½-½"
+            },
+            {
+              "board": 6,
+              "white": "juniors-8",
+              "black": "juniors-11",
+              "result": "1-0"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "pairings": [
+            {
+              "board": 1,
+              "white": "juniors-1",
+              "black": "juniors-5",
+              "result": "1-0"
+            },
+            {
+              "board": 2,
+              "white": "juniors-2",
+              "black": "juniors-9",
+              "result": "1-0"
+            },
+            {
+              "board": 3,
+              "white": "juniors-3",
+              "black": "juniors-7",
+              "result": "0-1"
+            },
+            {
+              "board": 4,
+              "white": "juniors-8",
+              "black": "juniors-12",
+              "result": "0-1"
+            },
+            {
+              "board": 5,
+              "white": "juniors-4",
+              "black": "juniors-10",
+              "result": "1-0"
+            },
+            {
+              "board": 6,
+              "white": "juniors-6",
+              "black": "juniors-11",
+              "result": "0-1"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "pairings": [
+            {
+              "board": 1,
+              "white": "juniors-7",
+              "black": "juniors-1",
+              "result": null
+            },
+            {
+              "board": 2,
+              "white": "juniors-2",
+              "black": "juniors-5",
+              "result": null
+            },
+            {
+              "board": 3,
+              "white": "juniors-12",
+              "black": "juniors-4",
+              "result": null
+            },
+            {
+              "board": 4,
+              "white": "juniors-9",
+              "black": "juniors-3",
+              "result": null
+            },
+            {
+              "board": 5,
+              "white": "juniors-6",
+              "black": "juniors-8",
+              "result": null
+            },
+            {
+              "board": 6,
+              "white": "juniors-11",
+              "black": "juniors-10",
+              "result": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need a rating to enter?",
+      "a": "No. Unrated players are welcome and can enter the U1600 section (or Juniors, if eligible). If you have a national or FIDE rating, include it so we can seed you correctly."
+    },
+    {
+      "q": "Is the tournament rated?",
+      "a": "Yes. All games are submitted for national rapid rating. The event is not FIDE-rated."
+    },
+    {
+      "q": "What should I bring?",
+      "a": "Just yourself. Boards, sets and clocks are provided. Bring a pen if you would like to keep score; scoresheets are optional at this time control."
+    },
+    {
+      "q": "Can I take a bye or arrive late?",
+      "a": "You can request a half-point bye for round 1 on the registration form. Players who arrive after check-in closes receive a zero-point bye for round 1 and are paired from round 2."
+    },
+    {
+      "q": "What is the refund policy?",
+      "a": "Full refunds are available until the registration deadline (10 November). After that we can transfer your entry to another player."
+    },
+    {
+      "q": "Is there food and parking?",
+      "a": "The hall café serves hot food and drinks all day. There is free parking behind the hall and a bus stop on Mill Lane."
+    },
+    {
+      "q": "What are the rules on phones and fair play?",
+      "a": "Phones must be switched off and kept in a bag while you are playing. Smartwatches are not allowed in the playing hall. Arbiters may ask to inspect devices."
+    },
+    {
+      "q": "Can friends and family watch?",
+      "a": "Spectators are welcome in the viewing area. Please keep quiet near the boards and do not talk to players during their games."
+    }
+  ]
+}

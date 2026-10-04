@@ -1,0 +1,27 @@
+{
+  "name": "riverside-rapid-2026",
+  "version": "1.0.0",
+  "description": "Event page for the Riverside Rapid 2026 chess tournament, built with Vanilla Framework",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mofopeadegoke/vanillaFramework.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mofopeadegoke/vanillaFramework/issues"
+  },
+  "homepage": "https://github.com/mofopeadegoke/vanillaFramework#readme",
+  "dependencies": {
+    "sass": "^1.105.1",
+    "vanilla-framework": "^4.59.0"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  }
+}

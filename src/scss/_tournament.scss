@@ -1,0 +1,259 @@
+// Page-specific styles layered on top of Vanilla. Uses Vanilla settings for spacing and breakpoints.
+
+$tournament-green-dark: #10291c;
+$tournament-tint: #f3f6f4;
+
+[hidden] {
+  display: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+.skip-link {
+  left: $sph--large;
+  position: absolute;
+  top: -100px;
+  z-index: 100;
+
+  &:focus {
+    background: $colors--theme--background-default;
+    padding: $spv--small $sph--large;
+    top: $spv--small;
+  }
+}
+
+// Sticky top navigation
+.p-navigation {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.p-navigation .p-navigation__logo-tag {
+  background-color: $color-positive;
+}
+
+.p-navigation.is-dark,
+.hero.is-dark,
+.site-footer.is-dark {
+  background-color: $tournament-green-dark;
+}
+
+// Hero: dark strip with a faint chessboard pattern
+.hero {
+  background-image:
+    linear-gradient(90deg, rgba($tournament-green-dark, 1) 35%, rgba($tournament-green-dark, 0.85) 100%),
+    conic-gradient(rgba(255, 255, 255, 0.06) 25%, transparent 0 50%, rgba(255, 255, 255, 0.06) 0 75%, transparent 0);
+  background-size: auto, 4rem 4rem;
+  padding-bottom: $spv--strip-deep * 0.75;
+  padding-top: $spv--strip-deep * 0.75;
+
+  .hero__title {
+    @extend %vf-heading-1;
+    max-width: none;
+  }
+}
+
+.countdown {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: $spv--large $sph--large;
+
+  @media (min-width: $breakpoint-large) {
+    margin-top: $spv--x-large * 2;
+  }
+}
+
+.countdown__units {
+  display: grid;
+  gap: $sph--large;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0;
+
+  .countdown__unit {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  dt {
+    @extend %small-text;
+    color: $colors--theme--text-muted;
+    font-weight: normal;
+  }
+
+  dd {
+    @extend %vf-heading-2;
+    font-variant-numeric: tabular-nums;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+// Tinted alternating sections
+.u-section-tint {
+  background-color: $tournament-tint;
+}
+
+// Schedule
+.schedule-table {
+  .schedule-table__time {
+    font-variant-numeric: tabular-nums;
+    width: 5rem;
+  }
+
+  .schedule-table__detail {
+    display: block;
+  }
+
+  .schedule-table__toggle {
+    display: block;
+    margin: $spv--x-small 0 0;
+  }
+
+  tr.is-round td {
+    font-weight: 550;
+  }
+
+  .schedule-table__pairings > td {
+    background: $colors--theme--background-default;
+    padding: $spv--large $sph--large;
+  }
+}
+
+.pairings-block + .pairings-block {
+  margin-top: $spv--large;
+}
+
+.pairings-table {
+  // Compact mobile cards: white and black side by side, board and result below.
+  @media (width < $threshold-6-12-col) {
+    tbody tr {
+      column-gap: $sph--large;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    tbody td {
+      min-width: 0;
+      text-align: left !important;
+      white-space: normal;
+
+      &::after {
+        content: none !important;
+      }
+    }
+
+    tbody td:nth-child(2),
+    tbody td:nth-child(4) {
+      order: -1;
+    }
+  }
+
+  .pairings-table__board {
+    width: 4rem;
+  }
+
+  .pairings-table__result {
+    width: 6rem;
+  }
+}
+
+// Standings
+.standings__scroll {
+  overflow-x: auto;
+}
+
+.standings {
+  table-layout: auto;
+
+  .standings__player {
+    font-weight: 550;
+  }
+
+  .standings__title {
+    color: $color-positive;
+    font-weight: 700;
+    margin-right: $sph--x-small;
+    text-decoration: none;
+  }
+
+  .standings__points {
+    font-weight: 700;
+  }
+
+  td.standings__round {
+    font-size: 0.875rem;
+
+    &.is-win {
+      color: $color-positive;
+    }
+
+    &.is-loss {
+      color: $color-negative;
+    }
+  }
+
+  // Compact mobile cards: player name on top, stats in a grid. Round strip is too dense here.
+  @media (width < $threshold-6-12-col) {
+    .standings__round,
+    .standings__start-no {
+      display: none !important;
+    }
+
+    tbody tr {
+      column-gap: $sph--large;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    tbody td,
+    tbody th {
+      min-width: 0;
+      white-space: normal;
+
+      &::after {
+        content: none !important;
+      }
+    }
+
+    tbody .standings__player {
+      border-bottom: 1px solid $colors--theme--border-low-contrast;
+      grid-column: 1 / -1;
+      order: -1;
+    }
+  }
+
+  @media (min-width: $threshold-6-12-col) {
+    th,
+    td {
+      white-space: nowrap;
+    }
+  }
+}
+
+.standings-legend {
+  margin-top: $spv--large;
+
+  strong + * {
+    margin-left: 0;
+  }
+}
+
+// Registration
+#register-notification:focus {
+  outline: none;
+}
+
+// Footer
+.site-footer {
+  padding-bottom: $spv--x-large * 2;
+  padding-top: $spv--x-large * 2;
+}

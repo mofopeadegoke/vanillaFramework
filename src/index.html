@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Riverside Rapid 2026 — chess tournament</title>
+    <meta
+      name="description"
+      content="Riverside Rapid 2026: a one-day, 5-round Swiss rapid chess tournament on 14 November 2026. Schedule, live standings, registration and FAQ."
+    />
+    <meta name="theme-color" content="#1d4d34" />
+    <link rel="icon" href="img/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/app.js" type="module"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header id="navigation" class="p-navigation is-dark">
+      <div class="p-navigation__row">
+        <div class="p-navigation__banner">
+          <div class="p-navigation__tagged-logo">
+            <a class="p-navigation__link" href="#top">
+              <div class="p-navigation__logo-tag">
+                <img class="p-navigation__logo-icon" src="img/logo.svg" alt="" />
+              </div>
+              <span class="p-navigation__logo-title">Riverside Rapid</span>
+            </a>
+          </div>
+          <ul class="p-navigation__items">
+            <li class="p-navigation__item">
+              <button
+                class="p-navigation__link--menu-toggle js-menu-toggle"
+                type="button"
+                aria-controls="main-nav"
+                aria-expanded="false"
+              >
+                Menu
+              </button>
+            </li>
+          </ul>
+        </div>
+        <nav class="p-navigation__nav" id="main-nav" aria-label="Main">
+          <ul class="p-navigation__items">
+            <li class="p-navigation__item"><a class="p-navigation__link" href="#about">About</a></li>
+            <li class="p-navigation__item"><a class="p-navigation__link" href="#schedule">Schedule</a></li>
+            <li class="p-navigation__item"><a class="p-navigation__link" href="#standings">Standings</a></li>
+            <li class="p-navigation__item"><a class="p-navigation__link" href="#register">Register</a></li>
+            <li class="p-navigation__item"><a class="p-navigation__link" href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section id="top" class="p-strip is-dark hero">
+        <div class="row">
+          <div class="col-7 col-medium-6">
+            <p class="p-muted-heading hero__eyebrow" data-field="hero-eyebrow">Saturday 14 November 2026 · Riverside Community Hall</p>
+            <h1 class="hero__title" data-field="event-name">Riverside Rapid 2026</h1>
+            <p class="p-heading--4" data-field="event-tagline">A one-day rapid chess tournament for every level of player.</p>
+            <p>
+              <a class="p-button--positive" href="#register">Register your entry</a>
+              <a class="p-button is-dark" href="#standings">See live standings</a>
+            </p>
+          </div>
+          <div class="col-5 col-medium-6">
+            <div class="countdown" aria-live="polite">
+              <p class="p-muted-heading countdown__label" id="countdown-label">First move in</p>
+              <dl class="countdown__units" aria-labelledby="countdown-label">
+                <div class="countdown__unit"><dt>Days</dt><dd data-countdown="days">–</dd></div>
+                <div class="countdown__unit"><dt>Hours</dt><dd data-countdown="hours">–</dd></div>
+                <div class="countdown__unit"><dt>Mins</dt><dd data-countdown="minutes">–</dd></div>
+                <div class="countdown__unit"><dt>Secs</dt><dd data-countdown="seconds">–</dd></div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About / key facts -->
+      <section id="about" class="p-section">
+        <div class="row">
+          <hr class="p-rule" />
+          <div class="col-3 col-medium-2"><h2 class="p-text--small-caps">The event</h2></div>
+          <div class="col-9 col-medium-4">
+            <p class="p-heading--2">Five rounds, three sections, one great day of chess.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="p-equal-height-row">
+            <div class="p-equal-height-row__col col-3 col-medium-3">
+              <div class="p-equal-height-row__item"><p class="p-muted-heading">Format</p></div>
+              <div class="p-equal-height-row__item"><p class="p-heading--4" data-field="format">5-round Swiss</p></div>
+              <div class="p-equal-height-row__item"><p>Everyone plays all five rounds against players on a similar score.</p></div>
+            </div>
+            <div class="p-equal-height-row__col col-3 col-medium-3">
+              <div class="p-equal-height-row__item"><p class="p-muted-heading">Time control</p></div>
+              <div class="p-equal-height-row__item"><p class="p-heading--4" data-field="time-control">15 min + 10 sec</p></div>
+              <div class="p-equal-height-row__item"><p data-field="rated">Rated for the national rapid list.</p></div>
+            </div>
+            <div class="p-equal-height-row__col col-3 col-medium-3">
+              <div class="p-equal-height-row__item"><p class="p-muted-heading">Entry fee</p></div>
+              <div class="p-equal-height-row__item"><p class="p-heading--4" data-field="entry-fee">£20 · Juniors £10</p></div>
+              <div class="p-equal-height-row__item"><p data-field="deadline">Entries close 10 November.</p></div>
+            </div>
+            <div class="p-equal-height-row__col col-3 col-medium-3">
+              <div class="p-equal-height-row__item"><p class="p-muted-heading">Venue</p></div>
+              <div class="p-equal-height-row__item"><p class="p-heading--4" data-field="venue-name">Riverside Community Hall</p></div>
+              <div class="p-equal-height-row__item">
+                <p>
+                  <span data-field="venue-address">12 Mill Lane, Riverside</span><br />
+                  <a data-field="venue-map" href="#" rel="noopener" target="_blank">Open in map</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <hr class="p-rule--muted" />
+          <div class="col-3 col-medium-2"><h3 class="p-heading--5">Prizes</h3></div>
+          <div class="col-9 col-medium-4">
+            <div class="row" id="prizes"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Schedule -->
+      <section id="schedule" class="p-section u-section-tint">
+        <div class="row">
+          <hr class="p-rule" />
+          <div class="col-3 col-medium-2"><h2 class="p-text--small-caps">Schedule</h2></div>
+          <div class="col-9 col-medium-4">
+            <p class="p-heading--2">The day at a glance</p>
+            <p>Pairings for every section are published here as each round starts.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 col-start-large-4">
+            <table class="schedule-table" aria-label="Tournament schedule">
+              <thead>
+                <tr>
+                  <th class="schedule-table__time">Time</th>
+                  <th>Session</th>
+                  <th class="u-align--right">Status</th>
+                </tr>
+              </thead>
+              <tbody id="schedule-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Standings -->
+      <section id="standings" class="p-section">
+        <div class="row">
+          <hr class="p-rule" />
+          <div class="col-3 col-medium-2"><h2 class="p-text--small-caps">Standings</h2></div>
+          <div class="col-9 col-medium-4">
+            <p class="p-heading--2" id="standings-title">Live standings</p>
+            <p id="standings-intro">Ranked by points, then Buchholz Cut-1, then Sonneborn-Berger. Select a column heading to sort.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="p-tabs" id="standings-tabs">
+              <div class="p-tabs__list" role="tablist" aria-label="Tournament sections"></div>
+            </div>
+            <div id="standings-panels"></div>
+            <p class="p-text--small u-text--muted standings-legend">
+              <strong>BH-C1</strong> Buchholz Cut-1: sum of opponents' scores, dropping the lowest.
+              <strong>SB</strong> Sonneborn-Berger: scores of opponents beaten, plus half the scores of opponents drawn.
+              Round columns show result, then opponent's starting number (e.g. <code>W5</code> = beat player 5).
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Registration -->
+      <section id="register" class="p-section u-section-tint">
+        <div class="row">
+          <hr class="p-rule" />
+          <div class="col-3 col-medium-2"><h2 class="p-text--small-caps">Register</h2></div>
+          <div class="col-9 col-medium-4">
+            <p class="p-heading--2">Book your board</p>
+            <p>Entries close on <span data-field="deadline-date">10 November</span>. Pay on the day by card or cash.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 col-start-large-4">
+            <div id="register-notification" class="u-hide" tabindex="-1"></div>
+            <form id="register-form" class="p-form" novalidate>
+              <div class="row">
+                <div class="col-4 col-medium-3">
+                  <div class="p-form-validation">
+                    <label for="reg-name" class="is-required">Full name</label>
+                    <input class="p-form-validation__input" type="text" id="reg-name" name="name" autocomplete="name" required aria-describedby="reg-name-error" />
+                    <p class="p-form-validation__message" id="reg-name-error" hidden></p>
+                  </div>
+                </div>
+                <div class="col-5 col-medium-3">
+                  <div class="p-form-validation">
+                    <label for="reg-email" class="is-required">Email</label>
+                    <input class="p-form-validation__input" type="email" id="reg-email" name="email" autocomplete="email" required aria-describedby="reg-email-error" />
+                    <p class="p-form-validation__message" id="reg-email-error" hidden></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-4 col-medium-3">
+                  <div class="p-form-validation">
+                    <label for="reg-phone">Phone <span class="u-text--muted">(optional)</span></label>
+                    <input class="p-form-validation__input" type="tel" id="reg-phone" name="phone" autocomplete="tel" aria-describedby="reg-phone-error" />
+                    <p class="p-form-validation__message" id="reg-phone-error" hidden></p>
+                  </div>
+                </div>
+                <div class="col-5 col-medium-3">
+                  <div class="p-form-validation">
+                    <label for="reg-dob" class="is-required">Date of birth</label>
+                    <input class="p-form-validation__input" type="date" id="reg-dob" name="dob" autocomplete="bday" required aria-describedby="reg-dob-help reg-dob-error" />
+                    <p class="p-form-help-text" id="reg-dob-help">Used to check Juniors eligibility.</p>
+                    <p class="p-form-validation__message" id="reg-dob-error" hidden></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-4 col-medium-3">
+                  <div class="p-form-validation">
+                    <label for="reg-section" class="is-required">Section</label>
+                    <select class="p-form-validation__input" id="reg-section" name="section" required aria-describedby="reg-section-error">
+                      <option value="" selected disabled>Choose a section</option>
+                    </select>
+                    <p class="p-form-validation__message" id="reg-section-error" hidden></p>
+                  </div>
+                </div>
+                <div class="col-5 col-medium-3">
+                  <div class="p-form-validation">
+                    <label for="reg-club">Club <span class="u-text--muted">(optional)</span></label>
+                    <input class="p-form-validation__input" type="text" id="reg-club" name="club" autocomplete="organization" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-4 col-medium-3">
+                  <div class="p-form-validation">
+                    <label for="reg-fide">FIDE ID <span class="u-text--muted">(optional)</span></label>
+                    <input class="p-form-validation__input" type="text" inputmode="numeric" id="reg-fide" name="fideId" aria-describedby="reg-fide-error" />
+                    <p class="p-form-validation__message" id="reg-fide-error" hidden></p>
+                  </div>
+                </div>
+                <div class="col-5 col-medium-3">
+                  <div class="p-form-validation">
+                    <label for="reg-rating">Rating <span class="u-text--muted">(optional)</span></label>
+                    <input class="p-form-validation__input" type="number" min="0" max="3000" step="1" id="reg-rating" name="rating" aria-describedby="reg-rating-help reg-rating-error" />
+                    <p class="p-form-help-text" id="reg-rating-help">Your national or FIDE rapid rating. Leave blank if unrated.</p>
+                    <p class="p-form-validation__message" id="reg-rating-error" hidden></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-9 col-medium-6">
+                  <label class="p-checkbox">
+                    <input type="checkbox" class="p-checkbox__input" name="bye" aria-labelledby="reg-bye-label" />
+                    <span class="p-checkbox__label" id="reg-bye-label">I would like a half-point bye in round 1</span>
+                  </label>
+                  <div class="p-form-validation" id="reg-rules-group">
+                    <label class="p-checkbox">
+                      <input type="checkbox" class="p-checkbox__input" name="rules" required aria-labelledby="reg-rules-label" aria-describedby="reg-rules-error" />
+                      <span class="p-checkbox__label" id="reg-rules-label">I agree to follow the tournament rules and the arbiter's decisions</span>
+                    </label>
+                    <p class="p-form-validation__message" id="reg-rules-error" hidden></p>
+                  </div>
+                  <button type="submit" class="p-button--positive">Submit entry</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="p-section">
+        <div class="row">
+          <hr class="p-rule" />
+          <div class="col-3 col-medium-2"><h2 class="p-text--small-caps">FAQ</h2></div>
+          <div class="col-9 col-medium-4">
+            <p class="p-heading--2">Questions, answered</p>
+            <aside class="p-accordion" aria-label="Frequently asked questions">
+              <ul class="p-accordion__list" id="faq-list"></ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="p-strip is-dark site-footer">
+      <div class="row">
+        <div class="col-6 col-medium-3">
+          <p class="p-heading--4">Riverside Rapid 2026</p>
+          <p class="u-text--muted">Organised by volunteers from Riverside Chess Club.</p>
+        </div>
+        <div class="col-3 col-medium-3">
+          <p class="p-muted-heading">Contact</p>
+          <p><a data-field="contact" href="mailto:hello@riversiderapid.example">hello@riversiderapid.example</a></p>
+        </div>
+        <div class="col-3 col-medium-6">
+          <p class="p-muted-heading">Venue</p>
+          <p>
+            <span data-field="venue-name">Riverside Community Hall</span><br />
+            <a data-field="venue-map" href="#" rel="noopener" target="_blank">Directions</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
